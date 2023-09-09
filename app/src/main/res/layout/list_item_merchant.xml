@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/dimen_16dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_merchantName"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="@dimen/dimen_21dp"
+        android:lineSpacingExtra="@dimen/dimen_2sp"
+        android:textColor="@color/tv_primary_color"
+        android:textFontWeight="500"
+        android:textSize="@dimen/dimen_16sp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="فرع مدينتي" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_merchantAddress"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:textAlignment="viewStart"
+        android:layout_marginBottom="@dimen/dimen_21dp"
+        android:lineSpacingExtra="@dimen/dimen_2sp"
+        android:textColor="@color/tv_secondary_color"
+        android:textFontWeight="500"
+        android:textSize="@dimen/dimen_14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_map"
+        app:layout_constraintStart_toStartOf="@+id/tv_merchantName"
+        app:layout_constraintTop_toBottomOf="@+id/tv_merchantName"
+        tools:text="مدينتي , ارابيسك مول , رقم B7" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:src="@drawable/ic_map"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_phone"
+        app:layout_constraintEnd_toStartOf="@+id/iv_phone"
+        app:layout_constraintTop_toTopOf="@+id/iv_phone" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/dimen_21dp"
+        android:src="@drawable/ic_phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

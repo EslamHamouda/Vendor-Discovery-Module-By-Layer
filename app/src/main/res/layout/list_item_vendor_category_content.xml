@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dimen_16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_vendorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/dimen_2sp"
+        android:textColor="@color/tv_primary_color"
+        android:textFontWeight="500"
+        android:textSize="@dimen/dimen_16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="فرع مدينتي" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_vendorAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/dimen_2sp"
+        android:textColor="#5E6160"
+        android:textFontWeight="400"
+        android:textSize="@dimen/dimen_14sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_vendorName"
+        app:layout_constraintTop_toBottomOf="@+id/tv_vendorName"
+        tools:text="مدينتي , ارابيسك مول , رقم B7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

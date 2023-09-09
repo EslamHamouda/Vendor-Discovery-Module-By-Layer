@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Halan Vendor Discovery</string>
+    <string name="where_to_buy">أماكن الشراء</string>
+    <string name="search_where_to_buy">ابحث في أماكن الشراء</string>
+</resources>

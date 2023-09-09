@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textview.MaterialTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/categoryName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded_vendor_category"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="3dp"
+    android:layout_marginEnd="8dp"
+    android:lineSpacingExtra="2sp"
+    tools:text="@string/where_to_buy"
+    android:textColor="@color/tv_primary_color"
+    android:textFontWeight="400"
+    android:textSize="14sp" />

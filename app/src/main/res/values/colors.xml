@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tv_primary_color">#1C211F</color>
+    <color name="progress_bar_color">#00A970</color>
+    <color name="tv_secondary_color">#5E6160</color>
+</resources>
